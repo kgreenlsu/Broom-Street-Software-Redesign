@@ -1,0 +1,494 @@
+﻿        #services, #clients, #products, #contact, #aboutus, #manage, #res {
+            padding-top: 2em;
+        }
+
+       
+         li a,li a:hover {
+            color: white;
+            text-decoration:none;
+        }
+
+        .navbar {
+            background-color: #293469;
+            text-align: center;
+            text-transform: capitalize;
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            font-size: 1.1em;
+            font-weight: 600;
+            letter-spacing: .03em;
+        }
+
+
+        .navbar-nav li:active,
+        .navbar-nav li:hover,
+        .navbar-nav li a:active,
+        .navbar-nav li a:hover {
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+       
+
+        .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+            background-color: #293469;
+        }
+
+        .navbar-nav li:active, .navbar-nav li:hover, .navbar-nav li a:active, .navbar-nav li a:hover {
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+          .dropdown-menu > li a,
+          .dropdown-menu{
+              background-color:white;
+            text-decoration:none;
+              color:#293469;
+             
+          }
+           .dropdown-menu > li a:hover {
+            background-color:rgba(200, 200, 200, 0.5);
+            text-decoration: none;
+            color: #293469;
+        }
+           
+
+
+
+        .navbar-brand,
+        .navbar-brand:hover {
+            color: white;
+            font-family: 'Lato', sans-serif;
+            font-size: 1.3em;
+        }
+          .slideanim {
+              visibility: hidden;
+          }
+
+          .slide {
+              animation-name: slide;
+              -webkit-animation-name: slide;
+              animation-duration: 1s;
+              -webkit-animation-duration: 1s;
+              visibility: visible;
+          }
+
+          /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+          @keyframes slide {
+              0% {
+                  opacity: 0;
+                  -webkit-transform: translateY(70%);
+              }
+
+              100% {
+                  opacity: 1;
+                  -webkit-transform: translateY(0%);
+              }
+          }
+
+          @-webkit-keyframes slide {
+              0% {
+                  opacity: 0;
+                  -webkit-transform: translateY(70%);
+              }
+
+              100% {
+                  opacity: 1;
+                  -webkit-transform: translateY(0%);
+              }
+          }
+
+
+        
+
+          .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+              max-height: 355px;
+          }
+
+
+          @media (min-width: 979px) {
+              ul.nav li.dropdown:hover > ul.dropdown-menu {
+                  display: block;
+              }
+          }
+
+
+
+          @media (max-width: 766px) {
+
+              .navbar-nav li a,
+              .navbar-nav li {
+                  text-align: center;
+              }
+          }
+
+
+     @media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+   
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+
+
+
+          .well {
+              background-color: transparent;
+              outline: none;
+              border: none;
+              border-color: none;
+          }
+
+
+          .padding-top-adj {
+              padding-top: 3em;
+          }
+
+          hr {
+              display: block;
+              height: 1px;
+              border: 0;
+              border-top: 1px solid #ccc;
+              margin: 1em 0;
+              padding: 0;
+          }
+
+
+          #headerwrap {
+              background: linear-gradient( rgba(100, 102, 100, 0.5), rgba(100, 102, 100, 0.5) ), url(hero.jpg) no-repeat center top;
+              margin-top: -50px;
+              padding-top: 120px;
+              text-align: center;
+              background-position: center center;
+              min-height: 550px;
+              width: 100%;
+              -webkit-background-size: 100%;
+              -moz-background-size: 100%;
+              -o-background-size: 100%;
+              background-size: 100%;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+          }
+
+
+          #headerwrap2 {
+              background: linear-gradient( rgba(48, 48, 48, 0.5), rgba(48, 48, 48, 0.5) ), url(bgImg.jpg) no-repeat center top;
+              margin-top: -50px;
+              padding-top: 120px;
+              text-align: center;
+              background-position: center center;
+              min-height: 550px;
+              width: 100%;
+              -webkit-background-size: 100%;
+              -moz-background-size: 100%;
+              -o-background-size: 100%;
+              background-size: 100%;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+          }
+
+          #prdBtn {
+              text-align: center;
+              margin: 0 auto;
+          }
+
+
+          #globe {
+              color: navy;
+              font-size: 10em;
+          }
+
+          /*
+          .dropdown-menu {
+              border-top: 4px solid transparent;
+          }
+              */
+          .underline {
+              border-top: 2px solid gray;
+              width: 15%;
+              display: block;
+              margin: 0 auto;
+          }
+
+          .sizeAdj {
+              font-size: 6em;
+          }
+
+          h1 {
+              font-size: 2em;
+              color: white;
+              font-weight: 800;
+              line-height: 1em;
+              letter-spacing: .20em;
+          }
+
+
+
+          .manyMore > a {
+              color: #333;
+              transition: background-color 0.2s ease-out, color 0.2s ease-out;
+              text-decoration: none;
+          }
+
+              .manyMore > a:hover,
+              .manyMore > a:active {
+                  color: red;
+                  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+              }
+
+          .img-circle {
+              display: block;
+              margin: 0 auto;
+              height: 200px;
+              width: 200px;
+          }
+
+
+          .colorBG {
+              background-color: #f6f6f0;
+          }
+
+          footer {
+              background-color: #293469;
+              color: white;
+              border-top: 3px solid gold;
+          }
+
+          #resLink {
+              font-size: 1.3em;
+          }
+
+          .Roboto {
+              font-size: 1.1em;
+              font-family: 'Roboto', sans-serif;
+          }
+
+          .Noto {
+              font-family: 'Noto Sans', sans-serif;
+              font-weight: 500;
+          }
+
+          .Kanit {
+              font-family: 'Kanit', sans-serif;
+              text-transform: uppercase;
+          }
+
+          .Hind {
+              font-family: 'Hind Vadodara', sans-serif;
+              text-transform: uppercase;
+              letter-spacing: .20em;
+              font-weight: 700;
+          }
+
+          .Lato {
+              font-family: 'Lato', sans-serif;
+          }
+
+          .comfortaa {
+              font-family: 'Comfortaa', cursive;
+              line-height: 1em;
+              font-size: 3em;
+          }
+
+          .fa-desktop {
+              color: red;
+          }
+
+          .fa-line-chart {
+              color: green;
+          }
+
+          .fa-mobile {
+              color: purple;
+          }
+
+          .fa-car {
+              color: darkgreen;
+          }
+
+          .fa-stethoscope {
+              color: brown;
+          }
+
+          .fa-cutlery {
+              color: orange;
+          }
+
+          .fa-shopping-cart {
+              color: deeppink;
+          }
+
+          .fa-laptop {
+              color: darkgoldenrod;
+          }
+
+          .fa-industry {
+              color: purple;
+          }
+
+          .fa-lightbulb-o {
+              color: darkblue;
+          }
+          .fa-bars{
+              color:white;
+          }
+
+          cite {
+              font-size: 1.4em;
+          }
+
+          #partners, #news, #employment, #pdfs, #proof, #video {
+              padding-top: 10px;
+          }
+          .headerOne{
+              padding:15px;
+              text-align:center;
+             font-size:2em;
+              font-family: 'Hind Vadodara', sans-serif;
+           
+          }
+        .motto {
+            text-align: center;
+            font-size: 2em;
+            word-spacing: .3em;
+            letter-spacing: .2em;
+            font-weight: 600;
+            color: white;
+            font-family: 'Hind Vadodara', sans-serif;
+        }
+        h5 > a,
+        h5 > a:hover{
+            text-decoration:none;
+            color:black;
+            font-size:1.1em;
+        }
+        #teamHint{
+            font-size:1.1em;
+            font-weight:700;
+            letter-spacing:.12em;
+            text-transform:capitalize;
+        }
+
+
+
+        .erp {
+            position: relative;
+        }
+            .erp img {
+                width: 100%;
+                vertical-align: top;
+            }
+            .erp:after {
+                position: absolute;
+                content: 'Contact Us';
+                color:white;
+                text-align: center;
+                font-size:2em;
+                position: absolute;
+                width: 100%;
+                height: 102%;
+                top: 0;
+                left: 0;
+                background: rgba(0,0,0,0.6);
+                opacity: 0;
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+
+            }
+            .erp:hover:after {
+                opacity: 1;
+                 width: 100%;
+  
+
+  
+            }
+
+
+
+              .it {
+            position: relative;
+        }
+            .it img {
+                width: 100%;
+                vertical-align: top;
+            }
+            .it:after {
+                position: absolute;
+                content: 'To';
+                color:white;
+                text-align: center;
+                font-size:2em;
+                position: absolute;
+                width: 100%;
+                height: 102%;
+                top: 0;
+                left: 0;
+                background: rgba(0,0,0,0.6);
+                opacity: 0;
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+
+            }
+            .it:hover:after {
+                opacity: 1;
+                 width: 100%;
+  
+
+  
+            }
+
+
+
+              .web {
+            position: relative;
+        }
+            .web img {
+                width: 100%;
+                vertical-align: top;
+            }
+            .web:after {
+                position: absolute;
+                content: 'Learn More';
+                color:white;
+                text-align: center;
+                font-size:2em;
+                position: absolute;
+                width: 100%;
+                height: 102%;
+                top: 0;
+                left: 0;
+                background: rgba(0,0,0,0.6);
+                opacity: 0;
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+
+            }
+            .web:hover:after {
+                opacity: 1;
+                 width: 100%;
+  
+
+  
+            }
